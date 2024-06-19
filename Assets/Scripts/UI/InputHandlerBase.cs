@@ -54,7 +54,14 @@ namespace Scripts.UI
             // Is this a mouse click?
             //  This is a hack, but they only way to filter out UGUI clicks that I've found so far.
             if (null == callbackContext.control?.device?.description) return false;
-            
+           var game = FindAnyObjectByType<GameManager>();
+           if (null == game) {
+            print("game object is null");
+           }
+           else{ 
+            print("game object is not null");
+           game.AddScore(1);
+           }
             return callbackContext.control.device.description.deviceClass == "Mouse";
         }
     }

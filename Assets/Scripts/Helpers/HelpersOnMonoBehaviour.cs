@@ -2,7 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using Scripts.Gameplay;
+using Scripts.UI;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Scripts.Helpers
 {
@@ -25,7 +27,18 @@ namespace Scripts.Helpers
         
         public void ReloadScene()
         {
+            var manager = FindObjectOfType<PauseManager>();
+
+            if (!manager)
+            {
+                Debug.LogWarning("Could not find PauseManager object.");
+                return;
+            }
+
+            manager.TogglePause();
             GeneralHelpers.ReloadScene();
+            
+            //SceneManager.LoadSceneAsync("S11_JungleMazeShooter_Scene");
         }
 
         public void ResetDelayed(float seconds)

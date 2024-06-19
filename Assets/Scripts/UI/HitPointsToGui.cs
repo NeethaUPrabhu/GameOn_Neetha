@@ -9,6 +9,8 @@ namespace Scripts.UI
     {
         public Slider slider;
         public TMP_Text text;
+        public TextMeshProUGUI digitalText;
+        public TextMeshProUGUI clockText;
         [Tooltip("Whose hit points to display?  If null, will try to figure it out.")]
         public HitPoints hitPoints;
         
@@ -36,6 +38,15 @@ namespace Scripts.UI
             if (text)
             {
                 this.text.text = hitPoints.currentHitPoints + "/" + hitPoints.maxHitPoints;
+            }
+            if (digitalText)
+            {
+                this.digitalText.text = hitPoints.currentHitPoints.ToString();
+            }
+    
+            if (clockText)
+            {
+                this.clockText.text = System.DateTime.Now.ToString("HH:mm:ss");
             }
         }
     }
