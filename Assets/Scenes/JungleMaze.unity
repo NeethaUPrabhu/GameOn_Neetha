@@ -1845,6 +1845,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1677615572357834098, guid: 1dd4d6a198a2aa7459f0d5237dc458d7, type: 3}
   m_PrefabInstance: {fileID: 6206799088538367987}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1236030741 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1007558716680083855, guid: 0e11ac85bb52f9641a6a4fe7e75e7824, type: 3}
+  m_PrefabInstance: {fileID: 1378404587}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1245360203
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2049,6 +2054,10 @@ PrefabInstance:
     - target: {fileID: 1007558716680083855, guid: 0e11ac85bb52f9641a6a4fe7e75e7824, type: 3}
       propertyPath: m_Name
       value: Ball
+      objectReference: {fileID: 0}
+    - target: {fileID: 1007558716680083855, guid: 0e11ac85bb52f9641a6a4fe7e75e7824, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5325046436747415336, guid: 0e11ac85bb52f9641a6a4fe7e75e7824, type: 3}
       propertyPath: m_IsActive
@@ -2956,6 +2965,18 @@ PrefabInstance:
     - target: {fileID: 375226088063364274, guid: fc1776de97c416e4eb860a533d985337, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037364208866069336, guid: fc1776de97c416e4eb860a533d985337, type: 3}
+      propertyPath: prefabSpawnMe
+      value: 
+      objectReference: {fileID: 1236030741}
+    - target: {fileID: 1037364208866069336, guid: fc1776de97c416e4eb860a533d985337, type: 3}
+      propertyPath: spawnInfo.spawnPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037364208866069336, guid: fc1776de97c416e4eb860a533d985337, type: 3}
+      propertyPath: spawnInfo.allowSpawnWhenPaused
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4111278111048567520, guid: fc1776de97c416e4eb860a533d985337, type: 3}
       propertyPath: m_text
@@ -4205,11 +4226,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8530033266918815104, guid: e381ba1122e68b94e862b841d664b109, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -41
+      value: -68
       objectReference: {fileID: 0}
     - target: {fileID: 8530033266918815104, guid: e381ba1122e68b94e862b841d664b109, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -62
+      value: -64
       objectReference: {fileID: 0}
     - target: {fileID: 8530033266918815104, guid: e381ba1122e68b94e862b841d664b109, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
