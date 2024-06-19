@@ -3916,6 +3916,22 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: e8594e09794233743a5b9cfb02731321, type: 3}
+    - target: {fileID: 3829337365400441901, guid: e381ba1122e68b94e862b841d664b109, type: 3}
+      propertyPath: m_text
+      value: 'Not all features are available all the time.
+
+
+        Fire:  Spacebar
+        or Mouse click
+
+        Move: WASD or controller left stick
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829337365400441901, guid: e381ba1122e68b94e862b841d664b109, type: 3}
+      propertyPath: m_fontSize
+      value: 17.4
+      objectReference: {fileID: 0}
     - target: {fileID: 4178132720479662455, guid: e381ba1122e68b94e862b841d664b109, type: 3}
       propertyPath: m_fontSize
       value: 20.8
@@ -4194,7 +4210,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8530033266604608075, guid: e381ba1122e68b94e862b841d664b109, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8530033266801009698, guid: e381ba1122e68b94e862b841d664b109, type: 3}
       propertyPath: m_AnchorMax.x
@@ -4226,7 +4242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8530033266918815104, guid: e381ba1122e68b94e862b841d664b109, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -57
+      value: -57.000015
       objectReference: {fileID: 0}
     - target: {fileID: 8530033266918815104, guid: e381ba1122e68b94e862b841d664b109, type: 3}
       propertyPath: m_AnchoredPosition.y
