@@ -4,7 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Coin
   - UFO Area
+  - CoinScore
   layers:
   - Default
   - TransparentFX
